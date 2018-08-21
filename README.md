@@ -50,7 +50,7 @@ All functions above accept up to 3 parameters:
 
 * 1st param: **p_input** (mandatory) - The value that you are searching. For F_STRING, wild cards '%' are accepted. For F_CLOB, the value will always be searched as substr. For others, will do an exact match.
 * 2nd param: **p_tab_name** (optional) - You can optionally filter what X$ tables will be included in the search also using wild cards. By default, all are included: 'X$%'
-* 3rd param: **p_col_name** (optional) - You can optionally filter what X$ columns will be included in the search also using wild cards. By default, all are included. '%'
+* 3rd param: **p_col_name** (optional) - You can optionally filter what X$ columns will be included in the search also using wild cards. By default, all are included: '%'
 
 ### VARIABLES: ###
 
